@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func searchButton(_ sender: UIButton) {
+        print("Sending search to server")
+    }
     //MARK: Properties
 
     override func viewDidLoad() {
