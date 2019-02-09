@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F30F0FBC220DF5C3005C8C05 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30F0FBB220DF5C3005C8C05 /* Person.swift */; };
 		F390495F220C643100C2BBB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F390495E220C643100C2BBB8 /* AppDelegate.swift */; };
 		F3904961220C643100C2BBB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3904960220C643100C2BBB8 /* ViewController.swift */; };
 		F3904964220C643100C2BBB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3904962220C643100C2BBB8 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		F3904969220C643200C2BBB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3904967220C643200C2BBB8 /* LaunchScreen.storyboard */; };
 		F3904974220C643200C2BBB8 /* MyAwesomeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3904973220C643200C2BBB8 /* MyAwesomeAppTests.swift */; };
 		F390497F220C643200C2BBB8 /* MyAwesomeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F390497E220C643200C2BBB8 /* MyAwesomeAppUITests.swift */; };
+		F3904993220DA79300C2BBB8 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3904992220DA79300C2BBB8 /* RatingControl.swift */; };
+		F3904995220DB2CB00C2BBB8 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3904994220DB2CB00C2BBB8 /* PersonTableViewCell.swift */; };
+		F3904997220DB63000C2BBB8 /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3904996220DB63000C2BBB8 /* PersonTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F30F0FBB220DF5C3005C8C05 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		F390495B220C643100C2BBB8 /* MyAwesomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAwesomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F390495E220C643100C2BBB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3904960220C643100C2BBB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		F390497A220C643200C2BBB8 /* MyAwesomeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAwesomeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F390497E220C643200C2BBB8 /* MyAwesomeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAwesomeAppUITests.swift; sourceTree = "<group>"; };
 		F3904980220C643200C2BBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3904992220DA79300C2BBB8 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		F3904994220DB2CB00C2BBB8 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		F3904996220DB63000C2BBB8 /* PersonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,13 @@
 		F390495D220C643100C2BBB8 /* MyAwesomeApp */ = {
 			isa = PBXGroup;
 			children = (
+				F3904994220DB2CB00C2BBB8 /* PersonTableViewCell.swift */,
+				F3904996220DB63000C2BBB8 /* PersonTableViewController.swift */,
+				F3904992220DA79300C2BBB8 /* RatingControl.swift */,
 				F390495E220C643100C2BBB8 /* AppDelegate.swift */,
 				F3904960220C643100C2BBB8 /* ViewController.swift */,
 				F3904962220C643100C2BBB8 /* Main.storyboard */,
+				F30F0FBB220DF5C3005C8C05 /* Person.swift */,
 				F3904965220C643200C2BBB8 /* Assets.xcassets */,
 				F3904967220C643200C2BBB8 /* LaunchScreen.storyboard */,
 				F390496A220C643200C2BBB8 /* Info.plist */,
@@ -256,7 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F30F0FBC220DF5C3005C8C05 /* Person.swift in Sources */,
+				F3904997220DB63000C2BBB8 /* PersonTableViewController.swift in Sources */,
+				F3904993220DA79300C2BBB8 /* RatingControl.swift in Sources */,
 				F3904961220C643100C2BBB8 /* ViewController.swift in Sources */,
+				F3904995220DB2CB00C2BBB8 /* PersonTableViewCell.swift in Sources */,
 				F390495F220C643100C2BBB8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FA8D45S82T;
 				INFOPLIST_FILE = MyAwesomeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = za.co.dubedivine.ios.MyAwesomeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,6 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FA8D45S82T;
 				INFOPLIST_FILE = MyAwesomeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = za.co.dubedivine.ios.MyAwesomeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
