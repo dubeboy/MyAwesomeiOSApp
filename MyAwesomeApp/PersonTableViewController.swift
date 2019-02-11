@@ -99,8 +99,8 @@ class PersonTableViewController: UITableViewController {
     
     private func loadSamplePeople() {
         let photo1 = UIImage(named: "kim-1")
-        let photo2 = UIImage(named: "kim-1")
-        let photo3 = UIImage(named: "kim-1")
+        let photo2 = UIImage(named: "sampleDude2")
+        let photo3 = UIImage(named: "sampleDude")
         
         
         guard let meal1 = Person(name: "David Jake", photo: photo1, rating: 4, distance: 5) else {
