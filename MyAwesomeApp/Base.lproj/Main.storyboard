@@ -36,10 +36,6 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZBU-sg-4BM" customClass="RatingControl" customModule="MyAwesomeApp" customModuleProvider="target">
-                                            <rect key="frame" x="102" y="59" width="258" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        </stackView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5KM Away" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ClE-G8-P9z">
                                             <rect key="frame" x="243" y="11" width="105" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -56,7 +52,6 @@
                                 <connections>
                                     <outlet property="distanceLabel" destination="ClE-G8-P9z" id="MXp-IT-Aqk"/>
                                     <outlet property="nameLabel" destination="oQQ-A2-dOE" id="vR5-iA-4zb"/>
-                                    <outlet property="ratingStackView" destination="ZBU-sg-4BM" id="qU2-5r-IQ5"/>
                                     <outlet property="userPhoto" destination="QST-hV-6vj" id="ltb-6W-jHy"/>
                                 </connections>
                             </tableViewCell>
